@@ -14,3 +14,16 @@ javac TurnItInCountingStrings.java
 java TurnItInCountingStrings "test string"
 
 ```
+
+Sample output:
+```
+java TurnItInCountingStrings "this is a test, a very bad test"
+a 2
+very 1
+test 1
+bad 1
+test, 1
+this 1
+is 1
+
+```
